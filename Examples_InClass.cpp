@@ -19,34 +19,29 @@ double area(double width, double height)
 int main() 
 {
     
-    int x = 5;
-    int y = 7;
+    int x1 = 5;
+    int y1 = 7;
 
     cout << endl;
-    cout << x + y << " " << x*y;
+    cout << x1 + y1 << " " << x1*y1;
     cout << endl;
-    return 0;
+
     
-
-    /*
     int age; cout << "Enter your age: ";
     cin >> age;
 
     cout << "You entered: "<< age << endl;
-    return 0;
-    */
-    /*
+    
+
     int a = 10;
     double b = 3.5;
     
-    double result = (double)a / b; 
+    double result1 = (double)a / b; 
     cout << "a = " << a <<endl;
     cout << "b = " << b <<endl;
-    cout << "Result of a / b = " << result << endl;
+    cout << "Result of a / b = " << result1 << endl;
     
-    return 0;
-    */
-    /*
+
     int x = 8;
     int y = 3;
 
@@ -56,21 +51,14 @@ int main()
     cout << "x / y = " << x / y <<endl;
     cout << "x % y = " << x % y <<endl;
 
-    return 0;
-    */
-
-    /*
+    
     int temp = 30;
     if (temp>25)
         cout<<"Its hot outside!"<<endl;
     else
         cout<<"Its cool outside!"<<endl;
 
-    return 0;
-    */
 
-
-    /*
     int day = 3;
 
     switch(day)
@@ -82,26 +70,20 @@ int main()
         
     }
 
-    return 0;
-    */
-    /*
+    
     for(int i = 1; i<=5; i++)
     {
         cout << "Count: " <<i << endl;
     }
-    return 0;
-    */
-    /*
+
+
     greet();
-    return 0;
-    */
-    /*
+
+    
     int result = add(4,6);
     cout<< "Sum = " << result << endl;
-    return 0;
-    */
-
-    /*
+   
+    
     double w,h;
     cout <<"Enter width: ";
     cin >> w;
@@ -109,7 +91,7 @@ int main()
     cin >> h;
 
     cout<<"Area = "<<area(w,h) <<endl;
+    
     return 0;
-    */
 
 }
