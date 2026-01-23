@@ -1,1 +1,5 @@
-MiniProject1_Higgins *.out *.o .vscode/
+nano .gitignore
+
+MiniProject1_Higgins 
+*.out 
+*.o .vscode/
