@@ -39,7 +39,7 @@ int main()
         cout << "2: Subtract 2 Doubles" << endl;
         cout << "3: Multiply 2 Doubles" << endl;
         cout << "4: Divide 2 Doubles" << endl;
-        cout << "5: Module 2 Integers" << endl;
+        cout << "5: Mod 2 Doubles" << endl;
         cout << "0: Exit" << endl;
         cout << "Enter your choice: ";
         cin >> choice;
@@ -90,10 +90,14 @@ int main()
                 case 4:
                 {
                     double x,y;
+                    y = 0;
+                    while(y==0)
+                    {
                     cout <<"Enter a double: ";
                     cin >> x;
-                    cout <<"Enter an integer: ";
+                    cout <<"Enter an integer (Not Zero): ";
                     cin >> y;
+                    }
 
                     cout<<x<<" / "<<y<<" = "<<divide(x,y) <<endl;
                     cout <<endl;
@@ -107,7 +111,7 @@ int main()
                     cout <<"Enter second integer: ";
                     cin >> y;
 
-                    cout<<x<<" % "<<y<<" = "<<divide(x,y) <<endl;
+                    cout<<x<<" % "<<y<<" = "<<mod(x,y) <<endl;
                     cout <<endl;
                     break;
                 }
