@@ -1,14 +1,18 @@
-Build & Run Commands
-    g++ main.cpp Queue.cpp -o queue
+Build & Run Commands:
+    g++ src/main.cpp src/Queue.cpp -I include -o queue
     ./queue
 
-File Structure Explanation
+File Structure Explanation:
     MiniProject2
-        main.cpp      #Menu for Queue
-        Queue.cpp     #Method Implimentation, how the queue works
-        Queue.h       #Class Declaration
+        include/
+            Queue.h       #Class Declaration
+        src/
+            main.cpp      #Menu for Queue
+            Queue.cpp     #Method Implementation, how the queue works
+        README.md
+        TESTING.md
 
-Example Usage
+Example Usage:
     Queue Management System
     Enter queue capacity: 5
 
